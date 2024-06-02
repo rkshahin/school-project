@@ -1,0 +1,137 @@
+*{
+margin: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:  url(img/istock2.jpg) ;
+    background-size: cover;
+    background-position: center;
+        
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 100, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+}
+.logo{
+    width: 20%;
+    padding: ;
+    }
+.logo>a {
+    display: flex;
+    align-items: center;
+    justify-content: 
+   space-between;
+   
+}
+
+.logo > a> img {
+    width: 60px;
+    border-radius: 50%;
+}
+.logo > a> h1 {
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    margin: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.manu_area {
+    width: 40%;
+}
+.manu_area  ul {
+    
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:   space-between;
+}
+
+.manu_area ul li {
+    flex-wrap: wrap;
+    display: flex;
+    width: 30%;
+    
+}
+.manu_area  a {
+    font-family: lato;
+    font-size: 16px;
+    color: beige;
+    border: 
+    2px solid rgb(2, 2, 48);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 67);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.info{
+    width: 40%;
+    margin: 5% 10%;
+}
+
+.info h1{
+    color: rgb(32, 17, 238);
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.info p{
+    font-size: 25px;
+    justify-content: center;
+    text-align: justify;
+    padding: 10px;
+    color: rgb(2, 0, 10);
+    font-family: cursive;
+    font-weight: 400;
+}
+
+..btn {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+.btn button {
+    justify-content: 
+    space-between;
+    font-family: lato;
+    background-color: darkblue; 
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 
+    0px -3px 0px inset;
+    gap: 10px;
+    margin: 5px 50px;
+    width: 30%;
+}
+
+.manu_area a:hover {
+    background-color: #ff0000;
+}
+
+.button:hover {
+    background-color: #ff0000;
+    cursor: pointer;
+}
